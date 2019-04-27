@@ -3,7 +3,7 @@ https://aws.amazon.com/api-gateway/[Amazon API Gateway] is a fully managed servi
 maintain, monitor, and secure APIs at any scale.
 ____
 
-A common use case of AWS API Gateway is to create HTTP endpoints which expose functions deploy to AWS Lambda.
+A common use case of AWS API Gateway is to create HTTP endpoints which expose functions deploed to AWS Lambda.
 
 Let's create an endpoint which exposes the Micronaut function we deployed to AWS Lambda.
 

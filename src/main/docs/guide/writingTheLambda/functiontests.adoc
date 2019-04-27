@@ -8,7 +8,7 @@ include::{sourceDir}/vies-vat-validator/build.gradle[tag=testdependencies]
 
 Because of that, testing your functions is really easy.
 
-First modify `ViesVatValidatorClient` interface to match to the method signature forced by `Function<VatValidationRequest, VatValidation>`.
+Create `ViesVatValidatorClient` interface to match to the method signature forced by `Function<VatValidationRequest, VatValidation>`.
 
 [source,java]
 .vies-vat-validator/src/test/java/example/micronaut/ViesVatValidatorClient.java
@@ -18,7 +18,7 @@ include::{sourceDir}/vies-vat-validator/src/test/java/example/micronaut/ViesVatV
 
 Now you can start up the Micronaut application and access your function via the client interface in your test.
 
-Modify `ViesVatValidatorFunctionTest.java`:
+Create `ViesVatValidatorFunctionTest.java`:
 
 [source,java]
 .vies-vat-validator/src/test/java/example/micronaut/ViesVatValidatorFunctionTest.java
